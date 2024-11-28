@@ -1,0 +1,71 @@
+# Python-specific ignores
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+**/__pycache__/
+*.so
+
+# Virtual Environment
+venv/
+env/
+
+# Django-specific ignores
+db.sqlite3
+*.log
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*~
+*.sublime-project
+*.sublime-workspace
+
+# Byte-compiled files
+*.egg-info/
+.eggs/
+*.egg
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# pytest cache
+.pytest_cache/
+
+# Coverage reports
+.coverage
+htmlcov/
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pylint
+.pylint.d/
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pipenv
+Pipfile.lock
+
+# Bandit security scanner
+.bandit
+
+# Local .env files
+.env*
+!.env.example
+
+# PyCharm project files
+.idea/
+*.iml
+workspace.xml
+
+# VSCode settings
+.vscode/
