@@ -82,9 +82,7 @@
    Obtain the Firebase Admin SDK credentials file from the link provided in the assessment document.
 
    - Copy paste the JSON contents in the following file:
-     ```bash
-     teebay-mobile-assesment-firebase-adminsdk.json
-     ```
+     `teebay_django_backend_mobile_dev_assessment/teebay-mobile-assesment-firebase-adminsdk.json`
 
 ## Run the Project
 
@@ -94,5 +92,13 @@ Start the development server using the following command:
 python manage.py runserver
 ```
 
-**Stopping the Server:**
+## API Documentation
+
+You can access the API documentation in two formats:
+
+Swagger UI: Visit http://127.0.0.1:8000 (or replace 127.0.0.1 with your server address) to access the interactive Swagger UI for the API documentation.
+
+ReDoc: Visit http://127.0.0.1:8000/redoc/ (or replace 127.0.0.1 with your server address) to access the API documentation in ReDoc format, which provides a more static, yet clean layout for API details.
+
+## **Stopping the Server:**
 To stop the development server, press `Ctrl + C` in the terminal.
