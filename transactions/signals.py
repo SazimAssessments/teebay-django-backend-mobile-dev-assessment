@@ -34,7 +34,7 @@ def send_notification_on_rent(sender, instance: Purchase, created, **kwargs):
         message = messaging.Message(
             notification=messaging.Notification(
                 title="Your Product has been rented",
-                body=f"{instance.product.title} has been rented by {instance.buyer.first_name}",
+                body=f"{instance.product.title} has been rented by {instance.renter.first_name}",
             ),
             data={'product_id': str(instance.id)},
             token=fcm_token
